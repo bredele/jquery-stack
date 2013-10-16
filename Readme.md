@@ -88,7 +88,7 @@ var stack = $('.stack').stack({
 
 You can install a component version with [component(1)](http://component.io):
 
-  $ component install bredele/jquery-stack
+  $ component install bredele/stack
 
 ## License
 
