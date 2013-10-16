@@ -33,10 +33,10 @@ var stack = $('.stack').stack({
 ## Events
 
 ### show
-  
-	```js
-		$('.stack').trigger('show', 'child2');
-	```
+
+```js
+$('.stack').trigger('show', 'child2');
+```
 
 ## Options
 
