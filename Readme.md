@@ -3,13 +3,21 @@
 
   jQuery plugin to stack your dom nodes
 
-## What is a stack
+## What is this?
 
-
+	
 
 ## Usage
 
-html:
+First, include the jQuery and the stack plugin:
+
+```html
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="jquery.stack.js"></script>
+```
+
+Then create your stack as following (a stack can be any content):
+
 
 ```html
 <div class="stack">
@@ -19,7 +27,7 @@ html:
 </div>
 ```
 
-javascript:
+and intialize your plugin:
 
 ```js
 var stack = $('.stack').stack({
