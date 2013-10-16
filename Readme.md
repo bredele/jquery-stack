@@ -29,6 +29,21 @@ var stack = $('.stack').stack({
 
 ## API
 
+### add(name, dom)
+
+  Identify a jquery element by name and push it into the stack
+
+```js
+stack.add('child4', $('.child4'));
+```
+
+### show(name)
+
+  Display a stacked element into the `parent` element.
+
+```js
+stack.show('child3');
+```
 
 ## Events
 
@@ -63,9 +78,9 @@ var stack = $('.stack').stack({
 
 ## Component
 
-	You can install a component version with [component(1)](http://component.io):
+You can install a component version with [component(1)](http://component.io):
 
-    $ component install bredele/jquery-stack
+  $ component install bredele/jquery-stack
 
 ## License
 
