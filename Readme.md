@@ -42,23 +42,23 @@ var stack = $('.stack').stack({
 
 ### Namespace
 
-  By default, the plugin look for nodes containing the `stack` data-attribute . You can set this namespace with the following option:
+By default, the plugin look for nodes containing the `stack` data-attribute . You can set this namespace with the following option:
 
-  ```js
-		var stack = $('.stack').stack({
-			namespace:'obama'
-		});
-	```
+```js
+	var stack = $('.stack').stack({
+		namespace:'obama'
+	});
+```
 
 ### Default visible
 
-  When you create a stack, every child nodes are stacked into a document fragment and are not visible on the screen. However, you can choose to display one by default:
+When you create a stack, every child nodes are stacked into a document fragment and are not visible on the screen. However, you can choose to display one by default:
 
-  ```js
-		var stack = $('.stack').stack({
-			default:'child2'
-		});
-	```
+```js
+	var stack = $('.stack').stack({
+		default:'child2'
+	});
+```
 
 
 ## Component
