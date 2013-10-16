@@ -3,15 +3,69 @@
 
   jQuery plugin to stack your dom nodes
 
-## Installation
+## What is a stack
 
-  Install with [component(1)](http://component.io):
 
-    $ component install bredele/jquery-stack
+
+## Usage
+
+html:
+
+```html
+<div class="stack">
+	<div data-stack="child1">child1</div>
+	<div data-stack="child2">child2</div>
+	<div data-stack="child3">child3</div>
+</div>
+```
+
+javascript:
+
+```js
+var stack = $('.stack').stack({
+	default:'child1'
+});
+```
 
 ## API
 
 
+## Events
+
+### show
+  
+	```js
+		$('.stack').trigger('show', 'child2');
+	```
+
+## Options
+
+### Namespace
+
+  By default, the plugin look for nodes containing the `stack` data-attribute . You can set this namespace with the following option:
+
+  ```js
+		var stack = $('.stack').stack({
+			namespace:'obama'
+		});
+	```
+
+### Default visible
+
+  When you create a stack, every child nodes are stacked into a document fragment and are not visible on the screen. However, you can choose to display one by default:
+
+  ```js
+		var stack = $('.stack').stack({
+			default:'child2'
+		});
+	```
+
+
+## Component
+
+	You can install a component version with [component(1)](http://component.io):
+
+    $ component install bredele/jquery-stack
 
 ## License
 
