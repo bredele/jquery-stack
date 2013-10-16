@@ -2,9 +2,6 @@
 # jquery-stack
 
   jQuery plugin to stack your dom nodes
-
-## What is this?
-
 	
 
 ## Usage
