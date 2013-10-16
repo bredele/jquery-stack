@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery stack</title>
+</head>
+<body>
+	<div class="stack">
+		<div data-stack="child1">child1</div>
+		<div data-stack="child2">child2</div>
+		<div data-stack="child3">child3</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="../jquery.stack.js"></script>
+	<script>
+	  $('.stack').stack({
+	  	default: 'child1'
+	  });
+	</script>
+</body>
+</html>
